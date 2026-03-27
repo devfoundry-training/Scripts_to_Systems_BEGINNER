@@ -2,7 +2,7 @@
 
 **Python Application Architecture for Instrument Control**
 
-A 2-day beginner track for engineers without a Python background. Covers Python foundations (Day 2) and ABC patterns with instrumentation (Day 3), preparing students for the main 3-day course.
+A 3-day beginner track for engineers without a Python background. Takes you from script-level code through to structured, testable instrument control systems.
 
 ---
 
@@ -10,6 +10,7 @@ A 2-day beginner track for engineers without a Python background. Covers Python 
 
 ```
 slides/               Presentation decks
+  Day1_Script_to_Architecture.pptx             (38 slides)
   Day2_Python_Foundations_and_Functions.pptx    (54 slides)
   Day3_ABC_Patterns_and_Instrumentation.pptx   (49 slides)
 tasks/                Tiered exercises — work through these during the course
@@ -29,6 +30,23 @@ solutions/            Reference solutions — check your work after each task
 - No hardware required — all instrument examples use simulators
 - No additional packages needed for Day 2
 - Day 3 references `pyserial` but exercises use simulated instruments
+
+---
+
+## Day 1 — From Script to Architecture
+
+Why scripts break, and how to fix them with objects, classes, and patterns.
+
+| Topic | What You'll Learn |
+|-------|-------------------|
+| Why Scripts Break | Global state, tight coupling, the "200-line wall" |
+| OOP from Scratch | Classes, `__init__`, `self`, state and responsibility |
+| Composition vs Inheritance | When to use each, how to combine objects |
+| Seams & Refactoring | Finding the cut points in messy code |
+| Adapter Pattern (intro) | Making hardware swappable via an ABC interface |
+| Strategy Pattern (intro) | Making measurement modes swappable |
+
+Day 1 is slide-based with 4 progressive labs (refactoring messy scripts into clean classes). No task file — work directly from the lab instructions in the slides.
 
 ---
 
@@ -100,7 +118,7 @@ By the end of Day 3, you'll have built a system where every component is swappab
 
 ## What Comes Next
 
-After completing this beginner track, you're ready for Day 1 of the main **From Scripts to Systems** course, which builds on these patterns to create a full desktop application with PySide6, threading, real-time plotting, and configuration management.
+After completing this beginner track, the next step is the advanced **From Scripts to Systems** course, which builds on these patterns to create a full desktop application with PySide6, threading, real-time plotting, and configuration management.
 
 ---
 

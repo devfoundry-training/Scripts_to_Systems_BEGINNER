@@ -1,4 +1,4 @@
-# From Scripts to Systems
+# From Scripts to Systems: Beginner
 
 **Python Application Architecture for Instrument Control**
 
@@ -118,7 +118,7 @@ By the end of Day 3, you'll have built a system where every component is swappab
 
 ## What Comes Next
 
-After completing this beginner track, the next step is the advanced course, **[From Scripts to Systems](https://github.com/devfoundry-training/Scripts_to_Systems)**, which builds on these patterns to create a full desktop application with PySide6, threading, real-time plotting, and configuration management.
+After completing this beginner track, the next step is the advanced course, **[From Scripts to Systems: Advanced](https://github.com/devfoundry-training/Scripts_to_Systems_ADVANCED)**, which builds on these patterns to create a full desktop application with PySide6, threading, real-time plotting, and configuration management.
 
 ---
 

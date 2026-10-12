@@ -46,6 +46,8 @@ Why scripts break, and how to fix them with objects, classes, and patterns.
 | Adapter Pattern (intro) | Making hardware swappable via an ABC interface |
 | Strategy Pattern (intro) | Making measurement modes swappable |
 
+**Day 1 is the same in both tracks.** If you have already done Day 1 of the Advanced course, you can skip it.
+
 Day 1 is slide-based with 4 progressive labs (refactoring messy scripts into clean classes). No task file; work directly from the lab instructions in the slides.
 
 ---
